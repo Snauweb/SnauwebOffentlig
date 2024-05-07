@@ -12,6 +12,13 @@
       <!--Inspirasjon for slideshowet er tatt fra https://www.w3schools.com/howto/howto_js_slideshow.asp -->
       <script src="script/header.js"></script>
 
+      <div class="mySlides snaustrinda">
+        <img id="røros"
+	     class="karusellbilde"
+	     src="bilder/slide_show/SlideshowBilde1.JPG"
+	     alt="Rørosmartnan 2024">
+      </div>
+
       <div class="mySlides fotogjengen">
         <img id="Snaustrinda2021_bilde"
 	     class="karusellbilde"
@@ -26,19 +33,14 @@
 	     alt="Bilde av Snaustrinda spelemannslag, tull og tøys">
       </div>
       
-      <div class="mySlides snaustrinda">
-        <img id="mai"
-	     class="karusellbilde"
-	     src="bilder/slide_show/SNAU_17_mai.jpg"
-	     alt="Bilde av Snaustrinda spelemannslag på 17. mai 2018">
-      </div>
 
+<!-- 
       <div class="mySlides snaustrinda">
         <img id="spelemannslag"
 	     class="karusellbilde"
 	     src="bilder/slide_show/SNAU_Spelemannslag.jpg"
 	     alt="Bilde av Snaustrinda spelemannslag på landskappleik">
-      </div>
+      </div> -->
 
       <!-- nest/forrige knapper -->
       <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
@@ -62,9 +64,9 @@
     <div class="innhold">
 
       <section id="om_snaustrinda">
-        <h1>Me er Snaustrinda spelemannslag.</h1>
-        <h2>Me held til på Studentersamfundet i Trondheim</h2>
-        <p id="om_tekst" lang="nn">Me består av studentar og held til på Studentersamfundet i Trondheim, og har vanlegvis rundt 35 medlemmer. Me held konsertar, speler til dans og anna sprell, og tek og på oss ulike oppdrag. Om du vil hyra oss inn, ta gjerne kontakt via epostadressen på botn av sida eller via Facebook-sida vår.
+        <h1>Snaustrinda Spelemannslag</h1>
+        <h2>Er eit studentspelemannslag som høyrer til ved Studentersamfundet i Trondheim.</h2>
+        <p id="om_tekst" lang="nn"> Me består av ca. 40 aktive medlem som speler folkemusikk frå krikar og krokar i landet. Me speler opp til dans, konsertar og anna sprell gjennom året samt å delta på tevlingar. Om du vil hyre oss til små og store oppdrag er det berre til å kontakt! 
 </p>
         <img id="logo" src="bilder/snaustrinda-logo.png" alt="Snaustrindas logo">
         <img class="scrollbtn" src='bilder/buttons/pil.png' alt='Scroll ned pil' onclick="scrollDown('#video', 1000);">
@@ -84,7 +86,7 @@
           <h2 id="sePåOss">Du finn oss på Spotify</h2>
         </div>
 
-        <div id="arrangement">
+        <!-- <div id="arrangement">
             <table>
               <tr>
 		<th>Kommende arrangementer:</th>
@@ -102,10 +104,12 @@
 		<td>27.08.2020<br> kl.19</td>
               </tr>
             </table>
-        </div>
+        </div> -->
 
         <div id="spotify">
-          <iframe  src="https://open.spotify.com/embed/album/3bsV7ZV3pkHl3FI8SHNSys" width="300" height="380" allow="encrypted-media"></iframe>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5HMU7eMnIfdkhu8a8WZEnz?utm_source=generator" 
+          width="100%" height="352" frameBorder="0" allowfullscreen="" 
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
       </section>
     </div>
